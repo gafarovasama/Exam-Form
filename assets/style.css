@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+}
+body .container {
+  width: 790px;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+body .container .event-reg-form {
+  padding: 20px 0;
+  background: #1a1a1a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+body .container .event-reg-form h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+body .container .form {
+  padding: 52px 85px;
+  padding-bottom: 73px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+body .container .form form .name {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .form form .name .form-text {
+  padding-top: 15px;
+  width: 125px;
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+}
+body .container .form form .name .flname {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .container .form form .name .flname .name {
+  width: 50%;
+  position: relative;
+}
+body .container .form form .name .flname .name input {
+  background: #e5e5e5;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: #555;
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  margin-bottom: 40px;
+}
+body .container .form form .name .flname .name label {
+  position: absolute;
+  text-transform: capitalize;
+  display: block;
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 50px;
+  left: 0;
+}
+body .container .form form .form-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 30px;
+}
+body .container .form form .form-content .form-text {
+  padding-top: 5px;
+  width: 125px;
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+}
+body .container .form form .form-content .form-input {
+  position: relative;
+  background: #e5e5e5;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: #555;
+  width: 60%;
+}
+body .container .form form .form-content .form-input input {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  color: #555;
+}
+body .container .form form .form-content .form-input select {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  color: #555;
+  font-size: 15px;
+  font-family: inherit;
+}
+body .container .form form .phone {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+}
+body .container .form form .phone .form-text {
+  width: 125px;
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+}
+body .container .form form .phone .phone-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body .container .form form .phone .phone-group .area-code {
+  position: relative;
+  width: 20%;
+}
+body .container .form form .phone .phone-group .area-code input {
+  background: #e5e5e5;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: #555;
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+body .container .form form .phone .phone-group .area-code label {
+  position: absolute;
+  text-transform: capitalize;
+  display: block;
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  left: 0;
+}
+body .container .form form .phone .phone-group .ph-number {
+  width: 70%;
+  position: relative;
+}
+body .container .form form .phone .phone-group .ph-number input {
+  background: #e5e5e5;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 0 22px;
+  font-size: 18px;
+  color: #555;
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+body .container .form form .phone .phone-group .ph-number label {
+  position: absolute;
+  text-transform: capitalize;
+  display: block;
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+  left: 0;
+}
+body .container .form form .radio-button {
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+body .container .form form .radio-button p {
+  color: #555;
+  font-size: 15px;
+  font-weight: 700;
+  display: block;
+}
+body .container .form form .radio-button .yes-no {
+  margin-top: 15px;
+  width: 120px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  color: #666;
+}
+body .container .form form .radio-button .yes-no span {
+  margin-left: 8px;
+}
+body .container .form form .register {
+  background-color: rgb(238, 80, 80);
+  width: 160px;
+  height: 34px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-family: inherit;
+  text-align: center;
+  padding-top: 17px;
+}
+body .container .form form .register button {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background: none;
+}
+body .container .form form .register:hover {
+  background-color: rgb(221, 59, 59);
+}/*# sourceMappingURL=style.css.map */
